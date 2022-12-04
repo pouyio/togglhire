@@ -1,6 +1,6 @@
 # Emailnator 2023 🦾
 
-![Demo](./demo.mp4)
+https://user-images.githubusercontent.com/5225417/205484149-92a0ab26-4b1b-49af-a7f9-54717bef1a56.mp4
 
 ## Description
 
