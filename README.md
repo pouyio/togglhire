@@ -18,6 +18,12 @@ React with plain javascript (no typescript ☹️) and no external dependencies.
 
 Several component folders (component + styles) and a single global provider for the alerts, no custom hooks. Added some comments on potentially tricky parts.
 
+## Performance
+
+Basic lighthouse test results serving the production build.
+
+https://user-images.githubusercontent.com/5225417/205485292-a852024b-e3cc-4057-a528-c86388e2b558.mp4
+
 ## Available Scripts
 
 ### `yarn start`
