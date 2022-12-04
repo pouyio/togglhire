@@ -1,0 +1,13 @@
+.container {
+  padding: 60px 30px;
+}
+
+.container .main {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.container .main .title {
+  font-family: Nunito;
+  margin-bottom: 1rem;
+}

@@ -1,3 +1,45 @@
+:root {
+  --color-text: #2c1338;
+  --color-bg: #fef9f7;
+  --color-action-values: 168, 118, 245;
+  --color-action: rgb(var(--color-action-values));
+  --color-error: #ce0032;
+  --transition-time: 150ms;
+}
+
+/* basic reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
 body {
-  font-family: sans-serif;
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+button:focus {
+  outline: 0;
+}
+
+/* utility classes */
+
+.animated {
+  transition: background-color 150ms linear, color 150ms linear;
+}
+
+.rounded {
+  border-radius: 2em;
 }

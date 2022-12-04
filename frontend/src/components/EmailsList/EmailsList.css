@@ -1,0 +1,27 @@
+.emails {
+  padding-top: 1.5rem;
+  max-height: 50vh;
+  overflow-y: auto;
+}
+
+.emails .message {
+  margin-bottom: 0.75rem;
+  display: inline-block;
+}
+
+.emails .error {
+  color: var(--color-error);
+}
+
+.emails .email {
+  font-size: 0.9rem;
+  display: inline-block;
+  padding: 0.2em 0.5em;
+  margin: 0.2em 0.35em 0.2em 0;
+  background-color: var(--color-bg);
+}
+
+.emails .failed {
+  background-color: var(--color-error);
+  color: var(--color-bg);
+}

@@ -1,0 +1,23 @@
+.files {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.files .file {
+  margin: 0.25rem 1.5rem;
+  padding: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+}
+
+.files .file-icon {
+  font-size: 5rem;
+}
+
+.files .file-title,
+.files .file-count {
+  font-size: 0.85rem;
+}

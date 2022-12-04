@@ -2,6 +2,7 @@ slagarde@example.fr
 ucamacho@example.net
 gregoriochacon@example.net
 beercarmine@example.org
+wrong@email
 ditschlerindiane@example.net
 berndtjopich@example.net
 pcrosby@example.org

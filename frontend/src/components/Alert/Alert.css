@@ -1,0 +1,29 @@
+.alert {
+  position: absolute;
+  top: 2rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  background-color: var(--color-text);
+  padding: 1rem 2rem;
+  color: var(--color-bg);
+  opacity: 1;
+  transition: opacity 0.5s, top 0.5s;
+  box-shadow: #0000003d 0px 3px 8px;
+}
+
+.alert.error {
+  background-color: var(--color-error);
+}
+
+.alert.hidden {
+  top: -2rem;
+  opacity: 0;
+}
+
+.alert .close {
+  background-color: transparent;
+  border: none;
+  margin-left: 1rem;
+  cursor: pointer;
+}
